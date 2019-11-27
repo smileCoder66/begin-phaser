@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Making your first Phaser 3 Game - Part 1</title>
+	<script src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
+	<style type="text/css">
+		body {
+			margin: 0;
+		}
+	</style>
+</head>
+
+<body>
+
+	<script type="text/javascript">
+		var config = {
+			//type: Phaser.WEBGL || Phaser.CANVAS
+			type: Phaser.AUTO, //自动尝试使用WebGL,如果浏览器或设备不支持，它将回退为Canvas
+			width: 800,
+			height: 600,//生成游戏画布的尺寸
+			scene: {
+				preload: preload, //放入需要预加载资源
+				create: create, //创建已加载到的元素
+				update: update //更新行为
+			}
+		};
+
+		var game = new Phaser.Game(config);//启动Phaser示例
+
+		function preload() {}
+
+		function create() {}
+
+		function update() {}
+	</script>
+
+</body>
+
+</html>
