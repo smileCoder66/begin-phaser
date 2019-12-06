@@ -20,6 +20,9 @@ Phaser3官方介绍:
   + [score](./part9.html)
   + [gameOver](./part10.html)
 
+最后效果~不多说上图(200行代码就能实现！)
+![part10](./assets/part10.jpg)
+
 ## last
 
 ```html
